@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(158, 157, 157);
+    margin: 20px;
+}
+
+aside{
+    flex: 30%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+aside > div{
+    background-color: red;
+    width: 500px;
+    height: 400px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.secundaria{
+    display: flex;
+}
+.terceira{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagemverde{
+    background-color: green;
+    width: 700px;
+    height: 80px;
+    margin: 20px;
+}
+
+.imagemrosa{
+    background-color: pink;
+    width: 350px;
+    height: 280px;
+    margin: 20px;
+}
+
+.imagemazul{
+    background-color: blue;
+    width: 330px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+
+
+
+
+

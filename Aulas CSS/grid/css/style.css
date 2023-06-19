@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    border: 1px solid #ccc;
+    margin: auto;
+    max-width: 400px;
+}
+
+.item{
+    margin: 5px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.grid-template-column-1{
+    grid-template-columns: 100px 100px 100px 100px; /*Quatro colunas de 100px de largura*/
+    /* Define o número total de colunas e que serão criadasno grid */
+}
+
+.grid-template-column-2{
+    grid-template-columns: 1fr 2fr;
+}
